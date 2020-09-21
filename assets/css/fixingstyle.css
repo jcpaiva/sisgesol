@@ -18,3 +18,102 @@ body {
   width: 100%;
   text-align: center;
 }
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  width: auto;
+}
+
+.card-body {
+  display: inline-block;
+  width: 100%;
+}
+
+.dark-edition .card .card-header-info .card-icon,
+.dark-edition .card .card-header-info .card-text,
+.dark-edition
+  .card
+  .card-header-info:not(.card-header-icon):not(.card-header-text),
+.dark-edition .card.bg-info,
+.dark-edition .card.card-rotate.bg-info .front,
+.dark-edition .card.card-rotate.bg-info .back {
+  background: linear-gradient(60deg, #1c4489, #1c4489);
+}
+
+.card .card-header-info .card-icon,
+.card .card-header-info:not(.card-header-icon):not(.card-header-text),
+.card .card-header-info .card-text {
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(101, 109, 110, 0.4);
+}
+
+.dark-edition .sidebar[data-color="azure"] li.active > a {
+  background: linear-gradient(60deg, #1c4489, #1c4489);
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(101, 109, 110, 0.4);
+}
+
+.dark-edition .btn.btn-ligth {
+  color: #fff;
+  background-color: #1c4489;
+  border-color: #1c4489;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(101, 109, 110, 0.4);
+}
+
+.form-control,
+.is-focused .form-control {
+  background-image: linear-gradient(
+      to top,
+      #a9a9aa 2px,
+      rgba(156, 39, 176, 0) 2px
+    ),
+    linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.dark-edition .form-control,
+.is-focused .dark-edition .form-control {
+  background-image: linear-gradient(
+      to top,
+      #d2d2d2 2px,
+      rgba(156, 39, 176, 0) 2px
+    ),
+    linear-gradient(
+      to top,
+      rgba(180, 180, 180, 0.1) 1px,
+      rgba(180, 180, 180, 0) 1px
+    );
+}
+
+.form-control,
+.is-focused .form-control {
+  background-image: linear-gradient(
+      to top,
+      #d2d2d2 2px,
+      rgba(156, 39, 176, 0) 2px
+    ),
+    linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.form-control,
+.is-focused .form-control {
+  background-image: linear-gradient(
+      to top,
+      #d2d2d2 2px,
+      rgba(156, 39, 176, 0) 2px
+    ),
+    linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+}
+
+.dark-edition [class^="bmd-label"],
+.dark-edition [class*=" bmd-label"] {
+  color: #d2d2d2;
+}
+
+.dark-edition .is-focused [class^="bmd-label"],
+.dark-edition .is-focused [class*=" bmd-label"] {
+  color: #d2d2d2;
+}
