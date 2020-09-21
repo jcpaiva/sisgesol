@@ -44,7 +44,7 @@
     <link href="./assets/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
     <!-- Other CSS Files -->
     <link rel="stylesheet" href="./assets/css/fixingstyle.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/fixingstyle.css" />
   </head>
 
   <body class="dark-edition">
@@ -167,93 +167,101 @@
         <!-- End Navbar -->
         <div class="content">
           <div class="container-fluid">
-            <div class="card card-plain">
-              <div class="card-header card-header-info">
-                <h4 class="card-title mt-0">
-                  Lista de Solicitudes y Aprobaciones
-                </h4>
-                <p class="card-category">
-                  Aquí mostramos las solicitudes realizadas con estado aprobado
-                  / rechazado en formato tabla
-                </p>
-              </div>
-              <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-hover">
-                    <thead class="">
-                      <th>ID</th>
-                      <th>Solicitud</th>
-                      <th>Fecha</th>
-                      <th>Cantidad</th>
-                      <th>Estado</th>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>Permiso</td>
-                        <td>26/12/2020</td>
-                        <td>15 días</td>
-                        <td>
-                          Aprobado &emsp;
-                          <i class="material-icons">done</i>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>Prestaciones</td>
-                        <td>30/09/2020</td>
-                        <td>8.500.000,00 Bs</td>
-                        <td>
-                          Aprobado &emsp;
-                          <i class="material-icons">done</i>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>Permiso</td>
-                        <td>30/12/2020</td>
-                        <td>15 días</td>
-                        <td>
-                          Rechazado &emsp;
-                          <i class="material-icons">clear</i>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>Prestaciones</td>
-                        <td>30/09/2020</td>
-                        <td>15.000.000,00 Bs</td>
-                        <td>
-                          Rechazado &emsp;
-                          <i class="material-icons">clear</i>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>Permiso</td>
-                        <td>14/02/2020</td>
-                        <td>3 días</td>
-                        <td>
-                          Aprobado &emsp;
-                          <i class="material-icons">done</i>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>Permiso</td>
-                        <td>20/02/2020</td>
-                        <td>14 días</td>
-                        <td>
-                          Aprobado &emsp;
-                          <i class="material-icons">done</i>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+            <div class="row">
+              <div class="col-md-10">
+                <div class="card">
+                  <div class="card-header card-header-info">
+                    <h4 class="card-title">
+                      Histórico de Tasas $ (EN CONSTRUCCIÓN)
+                    </h4>
+                    <p class="card-category">
+                      La siguiente información es requerida
+                    </p>
+                  </div>
+                  <div class="card-body">
+                    <img
+                      class="img"
+                      src="./assets/img/isometric-landing-page-website-is-construction.jpg"
+                      alt="Site en Construcción"
+                    />
+                    <!--                     <form>
+                      <div class="row">
+                        <div class="col-md-5">
+                          <div class="form-group">
+                            <label class="bmd-label-floating"
+                              >Departamento</label
+                            >
+                            <input type="text" class="form-control" required />
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">E-Mail</label>
+                            <input type="email" class="form-control" required />
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Contraseña</label>
+                            <input
+                              type="password"
+                              class="form-control"
+                              required
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Nombres</label>
+                            <input type="text" class="form-control" required />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label class="bmd-label-floating">Apellidos</label>
+                            <input type="text" class="form-control" required />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label class="bmd-label-floating"
+                              >Supervisor Inmediato</label
+                            >
+                            <input type="text" class="form-control" required />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <div class="form-group">
+                              <label class="bmd-label-floating"
+                                >Información Adicional</label
+                              >
+                              <textarea
+                                class="form-control"
+                                rows="5"
+                                required
+                              ></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-light pull-right">
+                        Enviar Solicitud
+                      </button>
+                      <div class="clearfix"></div>
+                    </form> -->
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
         </div>
         <footer class="footer">
           <div class="container-fluid">
