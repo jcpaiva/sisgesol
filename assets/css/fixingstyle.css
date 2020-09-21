@@ -25,6 +25,8 @@ body {
   margin-right: auto;
   align-content: center;
   width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .card-body {
