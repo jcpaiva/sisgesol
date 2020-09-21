@@ -1,0 +1,85 @@
+/* html {
+  box-sizing: border-box;
+} */
+
+body {
+  color: white;
+  font-family: "Kufam", cursive;
+  margin: 0;
+  /*   min-height: 100vh;
+  min-width: 100vh; */
+  align-items: center;
+  background: url(abstract.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+div {
+  align-items: center;
+}
+
+h1,
+h2 {
+  margin-block-start: 50px;
+  margin-block-end: 20px;
+  text-align: center;
+}
+
+hr {
+  max-width: 350px;
+}
+
+/* Removing UL Identation */
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.btn,
+.btn-outline-secondary {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: transparent;
+  width: max-content;
+  height: max-content;
+  border: 3px none transparent;
+  border-left: 0px;
+  border-radius: 0 10px 10px 0;
+  animation-iteration-count: infinite;
+}
+
+.row,
+.list-group-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  align-items: center;
+}
+.list-group-item::first-letter {
+  text-transform: uppercase;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+}
+
+.list-group-item:last-child {
+  border-bottom-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+
+.btn-outline-light {
+  border-width: 1px;
+}
+
+.done {
+  color: tomato;
+  text-decoration: line-through;
+}
