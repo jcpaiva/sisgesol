@@ -8,9 +8,9 @@ body {
 }
 
 .main-panel > .content {
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 10px 10px;
-  min-height: calc(100vh - 123px);
+  min-height: calc(99vh - 110px);
 }
 
 .content {
@@ -128,4 +128,54 @@ body {
 .dark-edition .is-focused [class^="bmd-label"],
 .dark-edition .is-focused [class*=" bmd-label"] {
   color: #d2d2d2;
+}
+
+.centered-log {
+  width: 300px;
+}
+
+.card .card-body .form-group .centered-log {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0 0;
+}
+
+.dark-edition .card .card-header-info .card-icon,
+.dark-edition .card .card-header-info .card-text,
+.dark-edition
+  .card
+  .card-header-info:not(.card-header-icon):not(.card-header-text),
+.dark-edition .card.bg-info,
+.dark-edition .card.card-rotate.bg-info .front,
+.dark-edition .card.card-rotate.bg-info .back {
+  background: linear-gradient(60deg, #1c4489, #d2d2d2);
+}
+
+.min-card-log {
+  min-width: 600px;
+}
+
+#log {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  width: 400px;
+  height: 200px;
+  max-width: 100%;
+}
+
+#centered-log-div {
+  display: flex;
+  justify-content: center;
+}
+
+#centered-log-div-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#login-button {
+  width: 300px;
 }
