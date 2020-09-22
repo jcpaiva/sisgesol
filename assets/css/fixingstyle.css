@@ -179,3 +179,11 @@ body {
 #login-button {
   width: 300px;
 }
+
+#selectInput {
+  color: #8a8f9d;
+}
+
+.dark-edition .form-control {
+  color: #8a8f9d;
+}
